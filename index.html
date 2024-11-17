@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images.jpg">
+   </head>
+<body>
+    <header></header>
+    <main class="main">
+        <h1 class="heading">Signup</h1>
+    <form action="result.html" target="_blank" method="post" class="regform">
+    <div class="input">
+       <label for="username"></label>
+       <input type="text" name="username" id="username" placeholder="Full Name" required>
+    </div>
+    <div  class="input">
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+    </div>
+    <div  class="input">
+        <label for="password"></label>
+        <input type="password" name="password" id="password" placeholder="Password" required minlength="8">
+    </div>
+    <div  class="input">
+        <label for="confirmpassword"></label>
+        <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirm Password" minlength="8" required>
+    </div>
+    <div class="input">
+        <label for="date"></label>
+        <input type="date" name="date" id="date" placeholder="dd/mm/yyyy" required>
+    </div>
+    <div class="option">
+        <input type="radio" name="id" id="identity" placeholder="Student" required>
+        <label for="identity">Student</label>
+        <input type="radio" name="id" id="iden" placeholder="Employee" required>
+        <label for="iden"> Employee</label>
+    </div>
+    <div class="option">
+        <input type="checkbox" name="checkbox" id="checkbox" placeholder="chechbox" required>
+        <label for="checkbox">I agree to all the Terms and conditions</label>
+    </div>
+    <div class="option">
+        <button type="submit" value="submit">Signup</button>
+    </div>
+
+    </form>
+</main>
+<footer></footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
